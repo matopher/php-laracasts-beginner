@@ -1,17 +1,11 @@
 <?php 
 
-$names = [
-  'Matt',
-  'Jake',
-  'Blake'
+$task = [
+  'title' => 'Get Cold Brew',
+  'due' => 'Tuesday',
+  'assigned_to' => 'Matt',
+  'completed' => false,
 ];
 
-$animals = [
-  'Otter',
-  'Snake',
-  'Bald Eagle',
-  'Squirrel',
-  'Doggy'
-];
 
 require 'index.view.php';
