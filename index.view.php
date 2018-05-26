@@ -26,9 +26,18 @@
 </header>
 
 <ul>
-  <?php foreach ($task as $key => $val) : ?>
-    <li><strong><?= $key; ?>:</strong> <?= $val; ?></li>
-  <?php endforeach; ?>
+  <li>
+    <strong>Name: </strong> <?= $task['title']; ?>
+  </li>
+  <li>
+    <strong>Due Date: </strong> <?= $task['due']; ?>
+  </li>
+  <li>
+    <strong>Assigned to: </strong> <?= $task['assigned_to']; ?>
+  </li>
+  <li>
+    <strong>Status: </strong> <?= $task['completed'] ? '✅ Complete' : '🔴 Incomplete'; ?>
+  </li>
 </ul>
 
 </body>

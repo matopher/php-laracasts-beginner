@@ -4,7 +4,7 @@ $task = [
   'title' => 'Get Cold Brew',
   'due' => 'Tuesday',
   'assigned_to' => 'Matt',
-  'completed' => false,
+  'completed' => true,
 ];
 
 
