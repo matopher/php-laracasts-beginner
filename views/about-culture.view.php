@@ -9,6 +9,6 @@
   <script src="main.js"></script>
 </head>
 <body>
-<h2>About Culture</h2>
+<h2>Our Culture at <?= $name; ?></h2>
 </body>
 </html>
