@@ -27,6 +27,12 @@
   </h1>
 </header>
 
+<nav>
+<ul></ul>
+  <li><a href="/about.php">About</a></li>
+</ul>
+</nav>
+
 <ul>
   <?php foreach ($tasks as $task) : ?>
     <li>
